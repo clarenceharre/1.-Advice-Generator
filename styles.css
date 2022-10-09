@@ -16,10 +16,10 @@ body {
 .box {
   background-color: var(--card-bg);
   border-radius: 15px;
-  margin: 20vh 20% 0 20%;
-  padding: 5% 5%;
+  margin: 30vh 30% 0 30%;
+  padding: 2% 2% 5% 2%;
 
-  height: 50vh;
+  height: 33vh;
   display:flex;
   flex-direction:column;
   justify-content : space-between;
@@ -40,6 +40,10 @@ body {
   font-size: 28px;
   font-weight: 800;
   color: var(--font-col);
+}
+
+#divider {
+  margin: 0 0 0 -3%;
 }
 
 #button {

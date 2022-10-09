@@ -1,0 +1,61 @@
+:root {
+  --line-col: hsl(217, 19%, 38%);
+  --card-bg: hsl(217, 19%, 24%);
+  --main-bg: hsl(218, 23%, 16%);
+  --font-col: hsl(193, 38%, 86%);
+  --button-col: hsl(150, 100%, 66%);
+}
+
+body {
+  background-color: var(--button-col);
+  background-color: var(--main-bg);
+
+  text-align: center;
+}
+
+.box {
+  background-color: var(--card-bg);
+  border-radius: 15px;
+  margin: 20vh 20% 0 20%;
+  padding: 5% 5%;
+
+  height: 50vh;
+  display:flex;
+  flex-direction:column;
+  justify-content : space-between;
+  overflow: auto;
+
+  text-align: center;
+  color: var(--font-col);
+  font-family: 'Manrope';
+}
+
+#title {
+  font-size: 15px;
+  font-weight: 400;
+
+  letter-spacing: 5px;
+  color: var(--button-col)
+}
+
+#quote {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#button {
+  border: 0px;
+  border-radius: 50%;
+  padding:15px;
+
+  background-color: var(--button-col);
+
+  position: relative;
+  top: -27px; /* half button height */
+
+  cursor: pointer;
+}
+
+#button:hover {
+  box-shadow: 0 0 40px var(--button-col);
+}
